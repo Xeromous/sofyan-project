@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Index</title>
+</head>
+<body id="index">
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="home.html">Home</a>
+    <a href="index.html">"Covid19 impact on environment"</a>
+    <a href="Page2.html">"Internet Social impact"</a>
+    <a href="Page3.html">"Co2 Impact on the earth"</a>
+    <a href="Project Evaluation.html">Project Evaluation</a>
+    <a href="Special Topics.html">Special Topics</a>
+  </div>
+  <div id="main">
+    <button style="opacity: 80%" class="openbtn" onclick="openNav()">&#9776;</button>
+  </div>
+  <div class="transparentBoxindex">
+    <div class="transparentTextindex">
+      <p>The COVID-19 pandemic, while devastating for human health and economies worldwide, has had some unintended consequences on the environment. As lockdown measures were implemented globally, industries slowed down, transportation decreased, and human activity in many areas came to a standstill. This sudden reduction in human impact led to visible improvements in air and water quality in many regions. With fewer cars on the roads and factories operating at reduced capacity, levels of air pollutants such as nitrogen dioxide and particulate matter plummeted. Additionally, the decrease in maritime traffic resulted in cleaner waterways and reduced noise pollution, benefiting marine ecosystems. However, these environmental improvements were often temporary, and some negative impacts emerged, such as increased plastic waste from disposable personal protective equipment (PPE) and disruptions in waste management systems. Despite these challenges, the pandemic has underscored the interconnection between human activity and the environment, highlighting the need for sustainable practices to mitigate future crises and protect both public health and the planet.</p>
+      <p>A qoute from the National Center for Biotechnolgy Information</p>
+      <blockquote cite="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498239/#:~:text=This%20study%20indicates%20that%2C%20the,restoration%20of%20the%20ecological%20system.">
+        "Due to movement restriction and a significant slowdown of social and economic activities, air quality has improved in many cities with a reduction in water pollution in different parts of the world. 
+        Besides,increased use of PPE (e.g., face mask, hand gloves etc.), their haphazard disposal, and generation of a huge amount of hospital waste has negative impacts on the environment. Both positive and negative environmental impacts of COVID-19 are..
+        "<a style="color:white" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7498239/#:~:text=This%20study%20indicates%20that%2C%20the,restoration%20of%20the%20ecological%20system.">read more</a>
+      </blockquote>
+      <img src="example.jpeg">
+    </div>
+ </div>
+</body>
+<script>
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+
+
+</script>
+</html>
